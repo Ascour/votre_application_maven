@@ -57,7 +57,7 @@
           <artifactId>maven-war-plugin</artifactId>
           <version>2.2</version>
           <configuration>
-            <failOnMissingWebXml>false</failOnMissingWebXml>
+            <webXml>/opt/tomcat/conf/web.xml</webXml>
           </configuration>
         </plugin>
         <plugin>
